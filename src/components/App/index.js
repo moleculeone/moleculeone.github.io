@@ -4,7 +4,9 @@ import vaccellent1 from './assets/vaccellent1.webp'
 import vaccellent2 from './assets/vaccellent2.webp'
 import shui from './assets/shui.jpg'
 import sipix from './assets/sipix.png'
-
+import marriage1 from './assets/marriage-game-1.jpg'
+import marriage2 from './assets/marriage-game-2.jpg'
+import marriage3 from './assets/marriage-game-3.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -74,23 +76,47 @@ function App() {
           <br />
           <img src={sipix} className="examplePictures" alt="sipix" />
 
-          <iframe width="100%" height="200px" src="https://www.youtube.com/embed/RXZsB9Ymgzk?si=er2hDRRfDXr9GG7y" title="YouTube video player"></iframe>
+          <iframe width="100%" height="500px" src="https://www.youtube.com/embed/RXZsB9Ymgzk?si=er2hDRRfDXr9GG7y" title="YouTube video player"></iframe>
         </div>
 
+
+
+        <div className="topic">Some highlighted Academic Projects </div>
+        <div className="section">
+          I have published well cited papers on Disaster Management and Mixed reality Games.<br />
+
+          Check out my Google Scholar Profile here:
+          <a href="https://scholar.google.com/citations?user=0YPalVwAAAAJ&hl=en">Google Scholar Page</a>
+        </div>
 
         <div className="topic">Some highlighted Personal Projects</div>
         <div className="section">
           <div className="header">Go Within  </div>
           A React Web application for learning meditation through the techniques of sahaja yoga meditation.
-     
-          <br/>
+
+          <br />
           <a href="https://moleculeone.github.io/gowithinnew/">Go Within New Version</a>
-          <br/>
+          <br />
           <a href="https://moleculeone.github.io/gowithin/">Go Within Older Version</a>
 
         </div>
 
+        <div className="section">
+          <div className="header">The Marriage Card Game  </div>
+          A Card game web application based on popular Nepalese card game called Marriage.
 
+          <div className="layout">
+            <img src={marriage1} className="item" alt="Marriage 1" />
+            <img src={marriage2} className="item" alt="Marriage 2" />
+            <img src={marriage3} className="item" alt="Marriage 3" />
+          </div>
+
+        </div>
+
+
+        <div className="">I'm passionate about music and movies, here is my youtube channel</div>
+        <br />
+        <a href="https://www.youtube.com/@hiteshnsharma">Personal Youtube</a>
 
       </div>
 
