@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6357230f.chunk.css",
-    "main.js": "/static/js/main.16dec257.chunk.js",
-    "main.js.map": "/static/js/main.16dec257.chunk.js.map",
+    "main.css": "/static/css/main.6a8e11a0.chunk.css",
+    "main.js": "/static/js/main.17e67232.chunk.js",
+    "main.js.map": "/static/js/main.17e67232.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.67d2abca.js",
     "runtime-main.js.map": "/static/js/runtime-main.67d2abca.js.map",
     "static/js/2.2fe72367.chunk.js": "/static/js/2.2fe72367.chunk.js",
     "static/js/2.2fe72367.chunk.js.map": "/static/js/2.2fe72367.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.6357230f.chunk.css.map": "/static/css/main.6357230f.chunk.css.map",
+    "static/css/main.6a8e11a0.chunk.css.map": "/static/css/main.6a8e11a0.chunk.css.map",
     "static/js/2.2fe72367.chunk.js.LICENSE.txt": "/static/js/2.2fe72367.chunk.js.LICENSE.txt",
+    "static/media/marriage-game-1.bc69e7de.jpg": "/static/media/marriage-game-1.bc69e7de.jpg",
+    "static/media/marriage-game-2.4a0be756.jpg": "/static/media/marriage-game-2.4a0be756.jpg",
+    "static/media/marriage-game-3.47145815.jpg": "/static/media/marriage-game-3.47145815.jpg",
     "static/media/shui.80fe25ee.jpg": "/static/media/shui.80fe25ee.jpg",
     "static/media/sipix.f8c9462c.png": "/static/media/sipix.f8c9462c.png",
     "static/media/vaccellent1.dc3b2e19.webp": "/static/media/vaccellent1.dc3b2e19.webp",
@@ -18,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.67d2abca.js",
     "static/js/2.2fe72367.chunk.js",
-    "static/css/main.6357230f.chunk.css",
-    "static/js/main.16dec257.chunk.js"
+    "static/css/main.6a8e11a0.chunk.css",
+    "static/js/main.17e67232.chunk.js"
   ]
 }
