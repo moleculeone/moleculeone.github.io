@@ -25,12 +25,15 @@ function App() {
         <div className="topic">Some highlighted Projects at Siemens</div>
         <div className="section">
           <div className="header"> Vaccellent </div>
-          Siemens Healthineers developed an application named Vaccellent to helped public get vaccinated during the Covid Pandemic. I contributed significantly as a Senior Software engineer developing different suite of Angular web applications. The set of applications helped public schedule vaccination appointments, helped physicans manage and administer vaccines and send reports to Government authorities, and also helped decision makers manage inventory and the distribution of vaccines. The product also received a Siemens Healthineers Innovation Awards 2021.
+          <div className='content-body'>
+             Siemens Healthineers developed an application named Vaccellent to helped public get vaccinated during the Covid Pandemic. I contributed significantly as a Senior Software engineer developing different suite of Angular web applications. The set of applications helped public schedule vaccination appointments, helped physicans manage and administer vaccines and send reports to Government authorities, and also helped decision makers manage inventory and the distribution of vaccines. The product also received a Siemens Healthineers Innovation Awards 2021.
 
           Technology: Angular, NgRx, Nx, Cypress, Jest, Chart.js.
 
           <img src={vaccellent1} className="examplePictures" alt="Vaccellent 1" />
           <img src={vaccellent2} className="examplePictures" alt="Vaccellent 2" />
+          </div>
+         
 
         </div>
 
