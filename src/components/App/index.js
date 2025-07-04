@@ -7,6 +7,8 @@ import sipix from './assets/sipix.png'
 import marriage1 from './assets/marriage-game-1.jpg'
 import marriage2 from './assets/marriage-game-2.jpg'
 import marriage3 from './assets/marriage-game-3.jpg'
+import gowithin from './assets/gowithin.jpg'
+import gowithin1 from './assets/gowithin1.jpg'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -92,9 +94,15 @@ function App() {
         <div className="topic">Some highlighted Personal Projects</div>
         <div className="section">
           <div className="header">Go Within  </div>
-          A React Web application for learning meditation through the techniques of sahaja yoga meditation.
+          A <strong>React </strong>Web application for learning meditation through the techniques of sahaja yoga meditation.
 
+          <div className="layout">
+            <img src={gowithin} className="item" alt="Gowithin 1" />
+            <img src={gowithin1} className="item" alt="Gowithin 2" />
+          </div>
           <br />
+          View it live here:
+
           <a href="https://moleculeone.github.io/gowithinnew/">Go Within New Version</a>
           <br />
           <a href="https://moleculeone.github.io/gowithin/">Go Within Older Version</a>
@@ -103,7 +111,7 @@ function App() {
 
         <div className="section">
           <div className="header">The Marriage Card Game  </div>
-          A Card game web application based on popular Nepalese card game called Marriage.
+          A <strong>React </strong> Card game web application based on popular Nepalese card game called Marriage.
 
           <div className="layout">
             <img src={marriage1} className="item" alt="Marriage 1" />
