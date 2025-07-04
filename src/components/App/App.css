@@ -84,7 +84,7 @@ button:focus-visible {
   padding: 4px;
   /* background-color: rgba(27,127,204,.8); */
   font-weight: bold;
-  background: linear-gradient(#e66465, #9198e5);
+  background: linear-gradient(rgb(218 213 213 / 30%), #ffffff);
 }
 
 .examplePictures {
